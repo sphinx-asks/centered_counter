@@ -48,7 +48,6 @@ main {
 }
 
 .count_button:active {
-	box-shadow: none ;
 	box-shadow: 1px 1px 1px 1px #557668;
 }
 
