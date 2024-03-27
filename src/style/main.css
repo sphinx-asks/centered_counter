@@ -18,10 +18,12 @@ main {
 .controls {
 	top: 2rem;
 	left: 2rem;
+	display: flex;
 }
 
 .control {
-	margin-right: 1rem;
+	margin-right: 10px;
+	padding: 20px 10px 20px 20px;
 }
 
 .control label {
@@ -38,6 +40,14 @@ main {
 	width: 3rem;
 }
 
+.button_main{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin-top: 11rem;
+}
+
 .count_button {
 	width: 10rem;
 	height: 10rem;
@@ -45,6 +55,7 @@ main {
 	border-radius: .4rem;
 	border: 2px solid green;
 	box-shadow: 1px 1px 4px 2px #557668;
+	cursor: pointer;
 }
 
 .count_button:active {
