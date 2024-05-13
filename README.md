@@ -9,8 +9,12 @@ node
 npm i
 ```
 
-## The code
+## The process
+Please do not create branches here. Fork the whole repository to your own github account and work on the code there. Once you are done, create a pull request to this repository.
 
+The reason for this request is to avoid other people seeing your solution :).
+
+## The code
 This code is bundled by vite. We have TS support and vitest for unit tests.
 
 In the `src` folder you will find:
